@@ -120,9 +120,7 @@ elif st.session_state.page == 'Database':
 
     # Get a reference to the database
     reference_to_database = db.reference('/')
-    
-    # Read data from the Realtime Database from Firebase
-    print(reference_to_database.get())
+
 
 
     # //////////////////////////////////////////////////////////////////////////////////////////
