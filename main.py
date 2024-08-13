@@ -1,5 +1,4 @@
 import streamlit as st
-import pymysql
 from firebase_admin import db
 import firebase_admin
 
