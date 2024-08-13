@@ -1,5 +1,7 @@
 import streamlit as st
 import pymysql
+from firebase_admin import db
+import firebase_admin
 
 # This is an imported function from some guy from Github who managed to create an 'autorefresh' functionality of 
 # Streamlit (Python) web applications. 'st_autorefresh()' is the command from the self-made library 
@@ -98,15 +100,30 @@ elif st.session_state.page == 'Database':
     # //////////////////////////////////////////////////////////////////////////////////////////
 
 
-    # Setting up the MySQL server:
-    my_sql_relational_database_connection = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="root",
-        database="urop_telegram_chatbot_db"
-    )
+    # Setting up the Firebase database:
 
-    cursor = my_sql_relational_database_connection.cursor()
+    #Here is the link that goes directly to this UROP Telegram Chatbot project's Firebase Realtime database:
+    #https://console.firebase.google.com/u/0/project/urop-telegram-chatbot/database/urop-telegram-chatbot-default-rtdb/data
+
+    #This if statement, accompanied by the condition with the function 'firebase_admin._apps', is used to prevent
+    #any error from creating multiple Firebase apps with the same name. 
+    
+    #The 'firebase_app = firebase_admin.initialize_app' within this if statement will instantiate a Firebase app 
+    #if it is not already created, which is what the 'firebase_admin._apps' does, as an internal variable that 
+    #keeps track of the initialized Firebase apps. It is a dictionary-like object that holds information about 
+    #the Firebase apps that have been initialized in your Python application.
+    if not firebase_admin._apps:
+        # Initialize Firebase
+        credentials_object = firebase_admin.credentials.Certificate("firebase_key.json")
+        firebase_admin.initialize_app(credentials_object, {
+            'databaseURL': 'https://urop-telegram-chatbot-default-rtdb.asia-southeast1.firebasedatabase.app/'
+        })
+
+    # Get a reference to the database
+    reference_to_database = db.reference('/')
+    
+    # Read data from the Realtime Database from Firebase
+    print(reference_to_database.get())
 
 
     # //////////////////////////////////////////////////////////////////////////////////////////
@@ -124,21 +141,31 @@ elif st.session_state.page == 'Database':
     # ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    # MySQL server's Relational Database's table to Streamlit website things
+    # Firebase's Database to Streamlit website things
 
-    cursor.execute("SELECT * FROM telegram_chatbot_history")
-    rows_in_a_tuple = cursor.fetchall()
+    # Read data from the Realtime Database from Firebase
+    database_data = reference_to_database.get()
+
+    print("Database Data:", database_data)
+
+    # Check if the Firebase Realtime database is None or empty
+    if database_data is None:
+        st.write("No data found in the Firebase Realtime Database.")
+    else:
+        # Converting the Firebase Realtime Database to a list of dictionaries
+        if isinstance(database_data, dict):
+            database_data = list(database_data.values())
+
+        # Main content
+        st.subheader("Assignments")
+        for i in range(len(database_data)):
+            st.write("**Student Prompt**")
+            st.write(f"{database_data[i]['student_prompt']}")
+            st.write("**Telegram Chatbot Response**")
+            st.write(f"{database_data[i]['telegram_chatbot_response']}")
+            st.write("---")
+
     
-    # Main content
-    st.subheader("Assignments")
-    for row in rows_in_a_tuple:
-        st.write("**Student Prompt**")
-        st.write(f"{row[1]}")
-        st.write("**Telegram Chatbot Response**")
-        st.write(f"{row[2]}")
-        st.write("---")
-
-
     # ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
