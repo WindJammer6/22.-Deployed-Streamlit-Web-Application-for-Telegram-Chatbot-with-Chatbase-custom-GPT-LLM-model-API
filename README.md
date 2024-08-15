@@ -2,6 +2,44 @@
 
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
 
+Add: 
+Prompt engineering
+Figma
+
+List of features to add to the UROP Telegram chatbot (if can do all these then not bad alr!! No need try to do more cuz need focus on the other UROP and studies too 😫):
+
+Schedule:
+August:
+- Try to deploy the Telegram Chatbot and Streamlit website (and firebase)
+- Allow teachers of a course to add (manually i guess?) assignments for the programming course (Maybe a seperate page of Programming Question and Test cases), and hopefully it shows up in the streamlit lists of assignment id for the programming course
+
+September:
+- Allow the teacher to customise behavior of the chatbot via the details page
+
+November:
+- Try to get Telegram bot to instead do conversational with free text input, make it more like limited with text options and fill in the blanks style, with name, courseid,  assignmentid and their answers (basically figure out how the entire conversation with the Telegram chatbot is gonna be like)
+- From a conversation with ChatGPT:
+Can Telegram bots be programmed to not give the user freedom of text but instead with premade options?
+ChatGPT said:
+ChatGPT
+Yes, Telegram bots can be programmed to offer users a limited set of options instead of allowing free text input. This can be achieved using inline keyboards, custom keyboards, or callback queries.
+
+Inline Keyboards: These are buttons that appear within the chat and can trigger actions or responses when pressed. They don't require user input beyond clicking a button.
+
+Custom Keyboards: These replace the default keyboard with a set of predefined buttons that users can select from.
+
+Callback Queries: These are used with inline keyboards to handle button presses and provide appropriate responses based on the user’s selection.
+
+By using these features, you can create a controlled interaction flow where users only choose from the given options.
+
+
+Bonus task for even more improvement:
+Allow teachers from other courses to add their own course + assignments with the respective ids + get  the 'search course' bar to work, where by you search for a course and all its uploaded assignments will show up at the left side of the streamlit website
+
+
+
+
+
 This is a project done as part of my University's Undergraduate Research Opportunities Programme (UROP), titled **'UROP: Telegram chatbot for novice programmers to learn coding'**, supervised and initiated by Professor Oka Kurniawan ([here](https://github.com/kurniawano) is his Github account), spanding 8 months of (on-off) work.
 
 Here is the description of the UROP project:  
