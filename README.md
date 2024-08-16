@@ -1,4 +1,4 @@
-# 22.-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase 
+# 22.-Deployed-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-API-and-Firebase-with-Figma-for-prototyping 
 
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
 
