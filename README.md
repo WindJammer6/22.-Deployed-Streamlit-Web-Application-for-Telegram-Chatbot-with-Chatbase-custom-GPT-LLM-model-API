@@ -1,4 +1,4 @@
-# 22.-Deployed-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-API-and-Firebase-with-Figma-for-prototyping ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=figma) 
+# 22.-Deployed-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase-with-Figma-for-prototyping ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=figma) 
 
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
 
