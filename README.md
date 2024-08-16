@@ -88,7 +88,7 @@ Here is a directory to explain the purpose of each file in this repository:
 2. [Additional files that are not part of the creation of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, but includes the past iterations/versions/prototypes of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database](#filesofpastiterationsofstreamlitwebapplication)
     1. Figma
 3. [Additional files that are not part of the creation of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, but includes my learning journey of some of the required technology being used in this project that I was not familiar with](#filesoflearningjourney)
-    1. Prompt Engineering learn
+    1. Prompt Engineering learn (from Prompt Engineering course by DeepLearning.AI in collaboration with OpenAI (using ChatGPT as the LLM))
     2. Figma learn
 4. [Deployment Process of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database on Streamlit Cloud](#deploymentofstreamlitwebapplication)
 
@@ -158,12 +158,12 @@ Source(s):
 
 ## 3. My learning journey of some of the required technology being used in this project that I was not familiar with <a name = "filesoflearningjourney"></a>
 Due to my lack of knowledge in some of the required technology being used in the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, I had to first learn them, which includes:
-+ Prompt Engineering paradigm
-+ Figma
++ Prompt Engineering learn (from Prompt Engineering course by DeepLearning.AI in collaboration with OpenAI (using ChatGPT as the LLM))
++ Figma learn
 
 <br>
 
-1. *Prompt Engineering learn (from Prompt Engineering course by OpenAI (using ChatGPT as the LLM))*
+1. *Prompt Engineering learn (from Prompt Engineering course by DeepLearning.AI in collaboration with OpenAI (using ChatGPT as the LLM))*
   
     Consists of my learning journey of the Prompt Engineering paradigm (online course where I learnt the Prompt Engineering paradigm from: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ by DeepLearning.AI, in collaboration with OpenAI titled 'ChatGPT Prompt Engineering for Developers' (only up till the 7th video in the playlist)
     
