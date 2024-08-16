@@ -94,7 +94,7 @@ Here is a directory to explain the purpose of each file in this repository:
 
 <br>
 
-## 1. Files that are required in the creation of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesrequiredincreationofstreamlitwebapplication"></a>
+## 1. Files that are required in the creation of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesrequiredincreationofstreamlitwebapplication"></a>
 **1. '.streamlit' folder**  
 *i. 'config.toml' file*
 
@@ -133,7 +133,7 @@ streamlit==1.27.2
 streamlit_autorefresh==1.0.1
 firebase_admin==6.2.0
 ```
-This is a compulsory file, in accordance to the deployment of Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database in [Streamlit Cloud](https://streamlit.io/cloud) as described in the documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud (refer to the section below '4. Deployment Process of the Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database (or any other application) on [Streamlit Cloud](https://streamlit.io/cloud)' for more information on the deployment process of this Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database on [Streamlit Cloud](https://streamlit.io/cloud)): https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit Cloud), which allows you to tell Streamlit (Python Framework) to download the necessary external libraries/framework/packages specified in this 'requirements.txt' file in the deployment environment that is required for the deployment of this Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database. 
+This is a compulsory file, in accordance to the deployment of Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database in [Streamlit Cloud](https://streamlit.io/cloud) as described in the documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud (refer to the section below '4. Deployment Process of the Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database on [Streamlit Cloud](https://streamlit.io/cloud)' for more information on the deployment process of this Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database on [Streamlit Cloud](https://streamlit.io/cloud)): https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit Cloud), which allows you to tell Streamlit (Python Framework) to download the necessary external libraries/framework/packages specified in this 'requirements.txt' file in the deployment environment that is required for the deployment of this Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database. 
 
 Apparently, the 'requirements.txt' file is a common practice across various deployment platforms in Python, not just for [Streamlit Cloud](https://streamlit.io/cloud). Whether you are deploying your applications on platforms like Heroku, AWS, Vercel, or others, specifying dependencies in a 'requirements.txt' file allows the platform to understand and install the necessary packages.
 
@@ -150,7 +150,7 @@ Source(s):
  
 <br>
 
-## 2. Past iterations/versions/prototypes of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesofpastiterationsofstreamlitwebapplication"></a>
+## 2. Past iterations/versions/prototypes of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesofpastiterationsofstreamlitwebapplication"></a>
 
 - Here is the link of this deployed Telegram Bot (named 'Telegram_Chatbot_integrated_with_Chatbase_GPT_model_API') using [Vercel](https://vercel.com/) - https://t.me/test_12173_bot
 
@@ -158,8 +158,10 @@ Source(s):
 
 ## 3. My learning journey of some of the required technology being used in this project that I was not familiar with <a name = "filesoflearningjourney"></a>
 Due to my lack of knowledge in some of the required technology being used in the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, I had to first learn them, which includes:
-- Prompt Engineering
-- Figma
++ Prompt Engineering paradigm
++ Figma
+
+<br>
 
 1. *Prompt Engineering learn (from Prompt Engineering course by OpenAI (using ChatGPT as the LLM))*
   
@@ -190,7 +192,7 @@ Due to my lack of knowledge in some of the required technology being used in the
 
     Consists of my learning journey of Figma (main Youtube playlist where I learnt the Prompt Engineering paradigm from: https://www.youtube.com/playlist?list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m by Aliena Cai, titled 'Figma UX Tutorial by Aliena' (only up till the 4th video in the playlist)
 
-    *What is Figma?*
+    *What is Figma?*  
     Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows. The feature set of Figma focuses on user interface (UI) and user experience (UX) design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.
 
     - Here is the link of my [Figma](https://figma.com/) account of the username: 'WindJammer6' - https://www.figma.com/@windjammer6
@@ -207,23 +209,19 @@ Due to my lack of knowledge in some of the required technology being used in the
 
 <br>
 
-## 4. Deployment Process of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database (or any other application) on Vercel <a name = "deploymentofstreamlitwebapplication"></a> ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit)
+## 4. Deployment Process of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database on Streamlit Cloud <a name = "deploymentofstreamlitwebapplication"></a> ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit)
 
-*What is [Vercel](https://vercel.com/)?*  
-From the official [Vercel](https://vercel.com/) website: 'Vercel lets teams deploy and run the user facing parts of their applications easily, separately from their backend.' 
+*What is [Streamlit Cloud](https://streamlit.io/cloud)?*  
+From the official [Streamlit Cloud](https://streamlit.io/cloud) website: 'Streamlit Cloud is a new product that lets you build, deploy, and share data from Streamlit Web Applications in minutes.' 
 
-*Why did I choose [Vercel](https://vercel.com/)?*  
-There are various platforms where you can deploy your Telegram Bot, including [Heroku](https://heroku.com/), [Back4app](https://containers.back4app.com/), [Amazon Web Services](https://aws.amazon.com/) etc. However, nowadays most of these deployment platforms require your billing information in order to start deploying applications on them. I did not want to take the risk of being overcharged as I will most likely not maintain my built application since I only created them for education purposes and not for production. Hence, I decided to use [Vercel](https://vercel.com/) instead since it is the only deployment platform that did not require billing information. (This is the same reason why I chose Firebase's Realtime database as the database instead of MySQL databases (refer to the section above '2. Past iterations/versions/prototypes of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database' for more information on the reason why I chose Firebase's Realtime database as the database instead of MySQL databases)
-
-Honestly, the 'Deploy telegram bot on Vercel(Python)' website blog by Chapi Menge (link: https://blog.chapimenge.com/blog/programming/deploying-on-vercel/) explains clearly step by step on how to deploy a Telegram Bot, built in Python on [Vercel](https://vercel.com/) (I believe that if you build the Telegram Bot using other programming languages such as JavaScript, the deployment process on [Vercel](https://vercel.com/) and the required code in the files will differ). Once deployed correctly, rather than getting a link for your application, the Telegram Bot should start to work as expected. 
+Honestly, the documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud (link: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app) explains very clearly step by step on how to deploy a Streamlit Web Application on [Streamlit Cloud](https://streamlit.io/cloud). Once deployed correctly, I got a direct 'streamlit.io' link to the Streamlit Web Application, which I can then share with others to try out this Streamlit Web Application.
 
 <br>  
 
-- Here is the link of my [Vercel](https://vercel.com/) account of the username: 'WindJammer6' - https://vercel.com/windjammer6s-projects
-- Here is the link of this deployed Telegram Bot (named 'Telegram_Chatbot_integrated_with_Chatbase_GPT_model_API') using [Vercel](https://vercel.com/) - https://t.me/test_12173_bot
+- Here is the link of my [Streamlit Cloud](https://streamlit.io/cloud) account of the username: 'WindJammer6' - https://vercel.com/windjammer6s-projects
+- Here is the link of this deployed Streamlit Web Application using [Streamlit Cloud](https://streamlit.io/cloud) - https://22-app-website-for-telegram-chatbot-hezsqgseuns85wxaqsdfpd.streamlit.app/
 
 Source(s):  
-https://vercel.com/ (Vercel)
-https://vercel.com/blog/what-is-vercel (Vercel Blog)
-https://blog.chapimenge.com/blog/programming/deploying-on-vercel/ (Blog) ('Deploy telegram bot on Vercel(Python)' website blog by Chapi Menge)
-https://chatgpt.com/ (ChatGPT)
++ https://streamlit.io/cloud (Streamlit Cloud)
++ https://blog.streamlit.io/introducing-streamlit-cloud/ (Streamlit Blog)
++ https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit Cloud) (Documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud)
