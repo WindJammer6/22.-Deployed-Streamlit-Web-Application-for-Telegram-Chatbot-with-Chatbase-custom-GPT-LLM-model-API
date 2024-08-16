@@ -195,6 +195,8 @@ Due to my lack of knowledge in some of the required technology being used in the
     *What is Figma?*  
     Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows. The feature set of Figma focuses on user interface (UI) and user experience (UX) design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.
 
+An important rule on Figma is that you should never start anything from scratch! Always remember to take from references, and copy from existing website templates to boost the quality and the creation time of the website prototype! (as advised from the AJ&Smart Youtube video)
+
     - Here is the link of my [Figma](https://figma.com/) account of the username: 'WindJammer6' - https://www.figma.com/@windjammer6
    
     Source(s):  
