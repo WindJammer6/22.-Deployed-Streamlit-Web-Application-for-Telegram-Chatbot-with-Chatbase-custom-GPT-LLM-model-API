@@ -151,6 +151,16 @@ Source(s):
 <br>
 
 ## 2. Past iterations/versions/prototypes of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesofpastiterationsofstreamlitwebapplication"></a>
+
+- Here is the link of this deployed Telegram Bot (named 'Telegram_Chatbot_integrated_with_Chatbase_GPT_model_API') using [Vercel](https://vercel.com/) - https://t.me/test_12173_bot
+
+<br>
+
+## 3. My learning journey of some of the required technology being used in this project that I was not familiar with <a name = "filesoflearningjourney"></a>
+Due to my lack of knowledge in some of the required technology being used in the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, I had to first learn them, which includes:
+- Prompt Engineering
+- Figma
+
 1. *Prompt Engineering learn (from Prompt Engineering course by OpenAI (using ChatGPT as the LLM))*
   
     Consists of my learning journey of the Prompt Engineering paradigm (online course where I learnt the Prompt Engineering paradigm from: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ by DeepLearning.AI, in collaboration with OpenAI titled 'ChatGPT Prompt Engineering for Developers' (only up till the 7th video in the playlist)
@@ -175,16 +185,25 @@ Source(s):
     - https://jupyter.org/ (Jupyter Notebook)
 
 <br>
+  
+2. *Figma learn*
 
-## 3. My learning journey of some of the required technology being used in this project that I was not familiar with <a name = "filesoflearningjourney"></a>
-Due to my lack of knowledge in some of the required technology being used in the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, I had to first learn them, which includes:
-- Building a Telegram Bot in Python (using the 'telegram.ext' (Python Framework) Telegram Bot API)
-- Using Chatbase API (requires money)
-- OpenAI API (but ended up not using it)
+    Consists of my learning journey of Figma (main Youtube playlist where I learnt the Prompt Engineering paradigm from: https://www.youtube.com/playlist?list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m by Aliena Cai, titled 'Figma UX Tutorial by Aliena' (only up till the 4th video in the playlist)
 
-What is [Chatbase](https://www.chatbase.co/)?  
-'Chatbase is an AI chatbot builder that allows companies and other users to create their own chatbot trained on their specific data, such as documentation or website content.'    
-Source: https://www.techopedia.com/definition/chatbase (Techopedia)  
+    *What is Figma?*
+    Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows. The feature set of Figma focuses on user interface (UI) and user experience (UX) design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.
+
+    - Here is the link of my [Figma](https://figma.com/) account of the username: 'WindJammer6' - https://www.figma.com/@windjammer6
+   
+    Source(s):  
+    - https://www.youtube.com/playlist?list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m (Aliena Cai) (Youtube playlist titled 'Figma UX Tutorial by Aliena')
+     - https://www.youtube.com/watch?v=D4NyQ5iOMF0&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=1 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Wireframe')
+      - https://www.youtube.com/watch?v=oZAKb_gs2Uo&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=2 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Mockup')
+      - https://www.youtube.com/watch?v=HwiHqfax7Uk&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=3 (Aliena Cai) (Youtube video titled 'Figma tutorial for beginners - auto layout & components')
+      - https://www.youtube.com/watch?v=v1UKB-0EUhQ&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=4 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Prototype')
+    - https://www.youtube.com/watch?v=FTFaQWZBqQ8 (AJ&Smart) (Youtube video titled 'Figma UI Design Tutorial: Get Started in Just 24 Minutes!')
+    - https://loremipsum.io/ (Lorem Ipsum text generator)
+    - https://en.wikipedia.org/wiki/Figma (Wikipedia) (What is Figma definition)
 
 <br>
 
