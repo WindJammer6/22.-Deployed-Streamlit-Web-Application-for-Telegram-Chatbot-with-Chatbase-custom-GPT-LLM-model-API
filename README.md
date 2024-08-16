@@ -2,10 +2,6 @@
 
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
 
-Add: 
-Prompt engineering
-Figma
-
 List of features to add to the UROP Telegram chatbot (if can do all these then not bad alr!! No need try to do more cuz need focus on the other UROP and studies too 😫):
 
 Schedule:
@@ -151,6 +147,7 @@ Source(s):
 <br>
 
 ## 2. Past iterations/versions/prototypes of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesofpastiterationsofstreamlitwebapplication"></a>
+https://www.figma.com/community/file/1406323732296662518/telegram-chatbot-website-with-prompt-engineering-prototyping (Figma prototype file link)  
 
 - Here is the link of this deployed Telegram Bot (named 'Telegram_Chatbot_integrated_with_Chatbase_GPT_model_API') using [Vercel](https://vercel.com/) - https://t.me/test_12173_bot
 
