@@ -1,0 +1,121 @@
+Here is the main source of this folder, 'Prompt Engineering learn (from Prompt Engineering course by DeepLearning.AI 
+in collaboration with OpenAI (using ChatGPT as the LLM))': 
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ (DeepLearning.AI)
+(DeepLearning.AI, in collaboration with OpenAI, short course titled, 'ChatGPT Prompt Engineering for Developers')
+
+
+(DISCLAIMER: OpenAI GPT model API (Python Framework) requires monthly payment subscription:
+ The codes in this tutorial require the OpenAI GPT model API (Python Framework) in order to obtain responses
+ from ChatGPT. However, the OpenAI GPT model API (Python Framework) access requires monthly payment subscription.
+ Hence, the codes in this folder will not be able to run, without the OpenAI GPT model API (Python Framework) 
+ access, which requires payment.
+
+ You can do the monthly payment subscription to get the OpenAI GPT model API (Python Framework) access here:
+ https://platform.openai.com/docs/overview (OpenAI Platform)
+ 
+ Hence, most of the 'output' from the code in this tutorial will be the simulated output shown in the videos in
+ this tutorial, written in Jupyter Notebook files)
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+What is Prompt Engineering?
+Prompt Engineering is the process of writing/refining a generative AI prompt to improve its accuracy and effectiveness
+and obtain desired outputs from AI models.
+
+What are prompts?
+An AI (including Large Language Models (LLM)) prompt is a question, command, or statement that you input into an AI 
+(including Large Language Models (LLM)) model to initiate a response or action, harnessing the power of Natural 
+Language Processing (NLP).
+
+
+Source(s):
+https://www.coursera.org/articles/what-is-prompt-engineering (Coursera) 
+https://www.copy.ai/blog/what-are-ai-prompts (copy.ai)
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+What are the 2 types of Large Language Models (LLM) (in terms of Fine-tuning)?
+
+(Note: Fine-tuning is a process in Machine Learning (ML), where a pre-trained ML model is further trained on a 
+specific dataset to adapt it to a particular task or domain.)
+
+
+1. Base LLM
+A Base LLM is a LLM that has been trained, using various NLP techniques, on a massive dataset containing diverse 
+text from the internet, books, articles, and other sources. The primary objective during training is to predict 
+the next word in a sentence, thereby learning the structure and patterns of the human language.
+
+Training Objective of a Base LLM:
+- The Base LLM model learns to generate coherent and contextually relevant text.
+- The Base LLM model does not specifically understand or follow instructions beyond the context given in the 
+  training data.
+- The Base LLM model is trained using techniques like masked language modeling or autoregressive modeling
+  (NLP techniques).
+
+Example of a Base LLM's response to prompts:
+- Prompt: Once upon a time, there was a unicorn...
+  Response: ...that lived in a magical forst with all her unicorn friends.
+- Prompt: What is the capital of France?
+  Response: What is France's largest city? What is France's population? What is the currency of France?
+
+Example of Base LLMs: GPT-3
+
+
+2. Instruction-tuned LLM (built on top of a Base LLM)
+An Instruction-tuned LLM is a Base LLM that has undergone additional training (fine-tuning) on datasets 
+specifically designed to teach the Base model to follow instructions, involving training it on pairs of 
+instructions and corresponding outputs, allowing to become an Instruction-tuned LLM.
+
+Training Objective of a Instruction-tuned LLM:
+- The Instruction-tuned LLM model is fine-tuned to better understand and execute specific instructions provided 
+  by the user.
+- The Instruction-tuned LLM model is trained using training datasets including various instructions and the 
+  correct responses, helping the the Instruction-tuned LLM model generalize better to unseen instructions.
+- The Instruction-tuned LLM model is trained using techniques like supervised fine-tuning (using labeled 
+  datasets) and Reinforcement Learning (RL) from human feedback (RLHF).
+
+Example of a Instruction-tuned LLM's response to prompts:
+- Prompt: What is the capital of France?
+  Response: The capital of France is Paris.
+
+Example of Instruction-tuned LLM: ChatGPT
+
+
+
+Which of the 2 types of Large Language Models (LLM) (in terms of Fine-tuning), Base LLM and Instruction-tuned 
+LLM is more commonly used?
+In most practical applications, it is recommended to use Instruction-tuned LLMs because it is trained to be 
+helpful, honest and harmless and are less likely to output problematic text such as toxic outputs compared to 
+Base LLMs.
+
+Hence, this 'Prompt Engineering course by OpenAI (using ChatGPT as the LLM)' will be focusing on 
+Instruction-tuned LLM, instead of Base LLM.
+
+
+
+Source(s):
+https://www.ibm.com/topics/fine-tuning (IBM)
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+What will we be learning in this 'Prompt Engineering course by OpenAI (using ChatGPT as the LLM)'?
+When you work with Instruction-tuned LLM, think of it as giving instructions to another very smart
+person, but dosen't know the specifics of your task. So when an Instruction-tuned LLM dosen't give 
+you the expected output/answer, its because the prompt/instructions given to it isn't clear enough.
+
+Hence, in this 'Prompt Engineering course by OpenAI (using ChatGPT as the LLM)', we will be learning:
+- How to write clear and specific prompts/instructions?
+- How to use the Iterative Prompt Development to develop clearer and more specific prompts/instructions?
+- What are some different ways to prompt an LLM, and what are some ways we design our prompts to achieve 
+  each of these ways of prompting an LLM?
+  -> Prompt Designs for an LLM to do Summarizing
+  -> Prompt Desgins for an LLM to do Inferring
+  -> Prompt Designs for an LLM to do Transforming
+  -> Prompt Designs for an LLM to do Expanding
+
