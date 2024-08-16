@@ -196,10 +196,10 @@ Due to my lack of knowledge in some of the required technology being used in the
    
     Source(s):  
     - https://www.youtube.com/playlist?list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m (Aliena Cai) (Youtube playlist titled 'Figma UX Tutorial by Aliena')
-     - https://www.youtube.com/watch?v=D4NyQ5iOMF0&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=1 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Wireframe')
-      - https://www.youtube.com/watch?v=oZAKb_gs2Uo&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=2 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Mockup')
-      - https://www.youtube.com/watch?v=HwiHqfax7Uk&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=3 (Aliena Cai) (Youtube video titled 'Figma tutorial for beginners - auto layout & components')
-      - https://www.youtube.com/watch?v=v1UKB-0EUhQ&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=4 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Prototype')
+        - https://www.youtube.com/watch?v=D4NyQ5iOMF0&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=1 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Wireframe')
+        - https://www.youtube.com/watch?v=oZAKb_gs2Uo&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=2 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Mockup')
+        - https://www.youtube.com/watch?v=HwiHqfax7Uk&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=3 (Aliena Cai) (Youtube video titled 'Figma tutorial for beginners - auto layout & components')
+        - https://www.youtube.com/watch?v=v1UKB-0EUhQ&list=PLKId0A0XCIbUYx3c_NYn13W9Z_kkIiA2m&index=4 (Aliena Cai) (Youtube video titled 'Figma UX tutorial for beginners - Prototype')
     - https://www.youtube.com/watch?v=FTFaQWZBqQ8 (AJ&Smart) (Youtube video titled 'Figma UI Design Tutorial: Get Started in Just 24 Minutes!')
     - https://loremipsum.io/ (Lorem Ipsum text generator)
     - https://en.wikipedia.org/wiki/Figma (Wikipedia) (What is Figma definition)
