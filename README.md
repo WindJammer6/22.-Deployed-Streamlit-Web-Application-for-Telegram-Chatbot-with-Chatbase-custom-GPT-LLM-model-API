@@ -151,27 +151,28 @@ Source(s):
 <br>
 
 ## 2. Past iterations/versions/prototypes of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesofpastiterationsofstreamlitwebapplication"></a>
-1. *Prompt Engineering learn (from Prompt Engineering course by OpenAI (using ChatGPT as the LLM))*  
-  Consists of my learning journey of the Prompt Engineering paradigm (online course where I learnt the Prompt Engineering paradigm from: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ by DeepLearning.AI, in collaboration with OpenAI titled 'ChatGPT Prompt Engineering for Developers' (only up till the 7th video in the playlist)
-
-  *What is Prompt Engineering?*  
-  Prompt Engineering is the process of writing/refining a generative AI prompt to improve its accuracy and effectiveness and obtain desired outputs from AI models.
+1. *Prompt Engineering learn (from Prompt Engineering course by OpenAI (using ChatGPT as the LLM))*
   
-  *What are prompts?*  
-  An AI (including Large Language Models (LLM)) prompt is a question, command, or statement that you input into an AI 
-  (including Large Language Models (LLM)) model to initiate a response or action, harnessing the power of Natural 
-  Language Processing (NLP).
-  
-  (Note: OpenAI GPT model API (Python Framework) requires monthly payment subscription: The codes in this tutorial require the OpenAI GPT model API (Python Framework) in order to obtain responses from ChatGPT. However, the OpenAI GPT model API (Python Framework) access requires monthly payment subscription. Hence, the codes in this folder will not be able to run, without the OpenAI GPT model API (Python Framework) access, which requires payment. You can do the monthly payment subscription to get the OpenAI GPT model API (Python Framework) access here: https://platform.openai.com/docs/overview (OpenAI Platform)
-  
-  Hence, most of the 'output' from the code in this tutorial will be the simulated output shown in the videos in this tutorial, written in [Jupyter Notebook](https://jupyter.org/) files)
-
-Source(s):  
-- https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ (DeepLearning.AI) (online course where I learnt the Prompt Engineering paradigm from)
-- https://www.coursera.org/articles/what-is-prompt-engineering (Coursera) (Definition of Prompt Engineering)
-- https://www.copy.ai/blog/what-are-ai-prompts (copy.ai) (Definition of Prompts)
-- https://platform.openai.com/docs/overview (OpenAI Platform) (link for payment for the OpenAI GPT model API (Python Framework) access)
-- https://jupyter.org/ (Jupyter Notebook)
+    Consists of my learning journey of the Prompt Engineering paradigm (online course where I learnt the Prompt Engineering paradigm from: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ by DeepLearning.AI, in collaboration with OpenAI titled 'ChatGPT Prompt Engineering for Developers' (only up till the 7th video in the playlist)
+    
+    *What is Prompt Engineering?*  
+    Prompt Engineering is the process of writing/refining a generative AI prompt to improve its accuracy and effectiveness and obtain desired outputs from AI models.
+    
+    *What are prompts?*  
+    An AI (including Large Language Models (LLM)) prompt is a question, command, or statement that you input into an AI 
+    (including Large Language Models (LLM)) model to initiate a response or action, harnessing the power of Natural 
+    Language Processing (NLP).
+    
+    (Note: OpenAI GPT model API (Python Framework) requires monthly payment subscription: The codes in this tutorial require the OpenAI GPT model API (Python Framework) in order to obtain responses from ChatGPT. However, the OpenAI GPT model API (Python Framework) access requires monthly payment subscription. Hence, the codes in this folder will not be able to run, without the OpenAI GPT model API (Python Framework) access, which requires payment. You can do the monthly payment subscription to get the OpenAI GPT model API (Python Framework) access here: https://platform.openai.com/docs/overview (OpenAI Platform)
+    
+    Hence, most of the 'output' from the code in this tutorial will be the simulated output shown in the videos in this tutorial, written in [Jupyter Notebook](https://jupyter.org/) files)
+    
+    Source(s):  
+    - https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ (DeepLearning.AI) (online course where I learnt the Prompt Engineering paradigm from)
+    - https://www.coursera.org/articles/what-is-prompt-engineering (Coursera) (Definition of Prompt Engineering)
+    - https://www.copy.ai/blog/what-are-ai-prompts (copy.ai) (Definition of Prompts)
+    - https://platform.openai.com/docs/overview (OpenAI Platform) (link for payment for the OpenAI GPT model API (Python Framework) access)
+    - https://jupyter.org/ (Jupyter Notebook)
 
 <br>
 
