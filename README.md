@@ -154,7 +154,7 @@ https://www.figma.com/community/file/1406323732296662518/telegram-chatbot-websit
 <br>
 
 ## 3. My learning journey of some of the required technology being used in this project that I was not familiar with <a name = "filesoflearningjourney"></a>
-Due to my lack of knowledge in some of the required technology being used in the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, I had to first learn them, which includes:
+Due to my lack of knowledge in some of the required technology being used in the Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, I had to first learn them, which includes:
 + Prompt Engineering learn (from Prompt Engineering course by DeepLearning.AI in collaboration with OpenAI (using ChatGPT as the LLM))
 + Figma learn
 
