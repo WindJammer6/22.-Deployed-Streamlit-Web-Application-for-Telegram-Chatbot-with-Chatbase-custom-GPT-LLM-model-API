@@ -1,4 +1,4 @@
-# 22.-Deployed-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-API-and-Firebase-with-Figma-for-prototyping 
+# 22.-Deployed-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-API-and-Firebase-with-Figma-for-prototyping ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=figma) 
 
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
 
@@ -50,10 +50,10 @@ The chatbot can be used for any institution that teaches programming.
 '''
 
 This project is made up of 2 Github repositories:  
-- [21.-Deployed-Telegram-Chatbot-integrated-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase](21.-Deployed-Telegram-Chatbot-integrated-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase) (this Github repository) (hosts the code for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database)
-- Streamlit website (the other repository)
+- [21.-Deployed-Telegram-Chatbot-integrated-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase](21.-Deployed-Telegram-Chatbot-integrated-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase)
+- [22.-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-custom-GPT-LLM-model-API-n-Firebase](https://github.com/WindJammer6/22.-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-custom-GPT-LLM-model-API-n-Firebase) (this Github repository) (hosts the code for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database)
 
-This Github repository is hosting the code for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database.
+This Github repository is hosting the code for the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database.
 
 <br>
 
@@ -73,20 +73,18 @@ The approach to developing this UROP project is split into 2 components:
 + https://22-app-website-for-telegram-chatbot-hezsqgseuns85wxaqsdfpd.streamlit.app/ (Streamlit (Python Framework)'s Website Application)
 + https://console.firebase.google.com/u/0/project/urop-telegram-chatbot/database/urop-telegram-chatbot-default-rtdb/data (Direct link to this project's Firebase (API) Realtime database, but only accessible by me through email)
 
-
-Maybe add a how to use section? Saying that the Chatbase API part might require money to get access to the API key... and hence otherwise cannot be used??
-
 <br>
 
 ## Table of Contents
 Here is a directory to explain the purpose of each file in this repository:
 
 1. [Files that are required in the creation of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database](#filesrequiredincreationoftelegramchatbot)
-    1. 'api' folder  
-        1. 'index.py' file
+    1. '.stremalit' folder  
+        1. 'config.toml' file
     2. 'README.md' file
     3. 'firebase_key.json' file
     4. 'requirements.txt' file
+    5. 'streamlit_web_application.py' file
 2. [Additional files that are not part of the creation of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, but includes the past iterations/versions/prototypes of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database](#filesofpastiterationsoftelegramchatbot)
     1. telegram bot with openai (ultimately didnt choose to work with it since it exposes the instructors' materials to public, that chatbase managed to achieve fortunately to keep them private)
     2. telegram bot with chatbase (but no database) (first iteration) (can refer from the deployment one to this one cuz this one uses long polling, but the final uploaded one in index.py uses webhook instead in order to get it to work with vercel for deployment)
