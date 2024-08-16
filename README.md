@@ -129,15 +129,13 @@ This file represents the authetication key. Apparently, when accessing to APIs (
 
 **4. 'requirements.txt' file**
 ```python
-fastapi==0.95.2
-pydantic==1.10.9  # or another compatible 1.x version
-python-telegram-bot==13.3
-requests==2.28.2
+streamlit==1.27.2
+streamlit_autorefresh==1.0.1
 firebase_admin==6.2.0
 ```
 This is a compulsory file, in accordance to the deployment of Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database in [Streamlit Cloud](https://streamlit.io/cloud) as described in the documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud (refer to the section below '4. Deployment Process of the Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database (or any other application) on [Streamlit Cloud](https://streamlit.io/cloud)' for more information on the deployment process of this Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database on [Streamlit Cloud](https://streamlit.io/cloud)): https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit Cloud), which allows you to tell Streamlit (Python Framework) to download the necessary external libraries/framework/packages specified in this 'requirements.txt' file in the deployment environment that is required for the deployment of this Streamlit Web Application for the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database. 
 
-Apparently,the 'requirements.txt' file is a common practice across various deployment platforms in Python, not just for [Streamlit Cloud](https://streamlit.io/cloud). Whether you are deploying your applications on platforms like Heroku, AWS, Vercel, or others, specifying dependencies in a 'requirements.txt' file allows the platform to understand and install the necessary packages.
+Apparently, the 'requirements.txt' file is a common practice across various deployment platforms in Python, not just for [Streamlit Cloud](https://streamlit.io/cloud). Whether you are deploying your applications on platforms like Heroku, AWS, Vercel, or others, specifying dependencies in a 'requirements.txt' file allows the platform to understand and install the necessary packages.
 
 <br>
 
@@ -145,17 +143,35 @@ Apparently,the 'requirements.txt' file is a common practice across various deplo
 The main Python file for the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database itself.
 
 <br>
+
 Source(s):  
-https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit Cloud) (Documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud)
-https://www.youtube.com/watch?v=s-Ga8c3toVY&t=336s (Code First with Hala) 
+- https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit Cloud) (Documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud)
+- https://www.youtube.com/watch?v=s-Ga8c3toVY&t=336s (Code First with Hala) 
  
 <br>
 
 ## 2. Past iterations/versions/prototypes of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesofpastiterationsofstreamlitwebapplication"></a>
-Telegram_bot.py is not required and is just merely for local running as long polling. (refer to the deployment process)
+1. *Prompt Engineering learn (from Prompt Engineering course by OpenAI (using ChatGPT as the LLM))*  
+  Consists of my learning journey of the Prompt Engineering paradigm (online course where I learnt the Prompt Engineering paradigm from: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ by DeepLearning.AI, in collaboration with OpenAI titled 'ChatGPT Prompt Engineering for Developers' (only up till the 7th video in the playlist)
 
-*Why did I choose Firebase's Realtime Database instead of MySQL databases?*  
-There are various platforms where you can deploy your Telegram Bot, including [Heroku](https://heroku.com/), [Back4app](https://containers.back4app.com/), [Amazon Web Services](https://aws.amazon.com/) etc. However, nowadays most of these deployment platforms require your billing information in order to start deploying applications on them. I did not want to take the risk of being overcharged as I will most likely not maintain my built application since I only created them for education purposes and not for production. Hence, I decided to use [Vercel](https://vercel.com/) instead since it is the only deployment platform that did not require billing information. (This is the same reason why I chose Firebase's Realtime database as the database instead of MySQL databases (refer to the section above '2. Past iterations/versions/prototypes of the Telegram Chatbot integrated with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database' for more information on the reason why I chose Firebase's Realtime database as the database instead of MySQL databases) Same for the firebase, which caused me to ultimately changed to it from MySQL server since basically all platforms I found to host my MYSQL server in the cloud required me to put billing information (I didnt want to spend moneyy) unfortunately, while only firebase didnt need
+  *What is Prompt Engineering?*  
+  Prompt Engineering is the process of writing/refining a generative AI prompt to improve its accuracy and effectiveness and obtain desired outputs from AI models.
+  
+  *What are prompts?*  
+  An AI (including Large Language Models (LLM)) prompt is a question, command, or statement that you input into an AI 
+  (including Large Language Models (LLM)) model to initiate a response or action, harnessing the power of Natural 
+  Language Processing (NLP).
+  
+  (Note: OpenAI GPT model API (Python Framework) requires monthly payment subscription: The codes in this tutorial require the OpenAI GPT model API (Python Framework) in order to obtain responses from ChatGPT. However, the OpenAI GPT model API (Python Framework) access requires monthly payment subscription. Hence, the codes in this folder will not be able to run, without the OpenAI GPT model API (Python Framework) access, which requires payment. You can do the monthly payment subscription to get the OpenAI GPT model API (Python Framework) access here: https://platform.openai.com/docs/overview (OpenAI Platform)
+  
+  Hence, most of the 'output' from the code in this tutorial will be the simulated output shown in the videos in this tutorial, written in [Jupyter Notebook](https://jupyter.org/) files)
+
+Source(s):  
+- https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/ (DeepLearning.AI) (online course where I learnt the Prompt Engineering paradigm from)
+- https://www.coursera.org/articles/what-is-prompt-engineering (Coursera) (Definition of Prompt Engineering)
+- https://www.copy.ai/blog/what-are-ai-prompts (copy.ai) (Definition of Prompts)
+- https://platform.openai.com/docs/overview (OpenAI Platform) (link for payment for the OpenAI GPT model API (Python Framework) access)
+- https://jupyter.org/ (Jupyter Notebook)
 
 <br>
 
