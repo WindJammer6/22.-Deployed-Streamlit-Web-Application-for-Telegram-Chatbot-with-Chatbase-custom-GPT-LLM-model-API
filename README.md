@@ -75,7 +75,7 @@ The approach to developing this UROP project is split into 2 components:
 Here is a directory to explain the purpose of each file in this repository:
 
 1. [Files that are required in the creation of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database](#filesrequiredincreationofstreamlitwebapplication)
-    1. '.stremalit' folder  
+    1. '.streamlit' folder  
         1. 'config.toml' file
     2. 'README.md' file
     3. 'firebase_key.json' file
