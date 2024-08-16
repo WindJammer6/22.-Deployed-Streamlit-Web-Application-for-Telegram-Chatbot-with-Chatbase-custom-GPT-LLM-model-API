@@ -215,7 +215,7 @@ Honestly, the documentation on how to deploy a Streamlit (Python Framework) Web 
 
 <br>  
 
-- Here is the link of my [Streamlit Cloud](https://streamlit.io/cloud) account of the username: 'WindJammer6' - https://vercel.com/windjammer6s-projects
+- Here is the link of my [Streamlit Cloud](https://streamlit.io/cloud) account of the username: 'WindJammer6' - https://share.streamlit.io/user/windjammer6
 - Here is the link of this deployed Streamlit Web Application using [Streamlit Cloud](https://streamlit.io/cloud) - https://22-app-website-for-telegram-chatbot-hezsqgseuns85wxaqsdfpd.streamlit.app/
 
 Source(s):  
