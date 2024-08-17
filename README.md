@@ -83,7 +83,7 @@ Here is a directory to explain the purpose of each file in this repository:
     5. 'streamlit_web_application.py' file
       
 2. [Additional files that are not part of the creation of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, but includes the past iterations/versions/prototypes of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database](#filesofpastiterationsofstreamlitwebapplication)
-    1. Figma
+    1. Figma (maybe put a pic of the Figma prototyping of the website, while attaching an image as a jpg file uploaded in this repo)
   
 3. [Additional files that are not part of the creation of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database, but includes my learning journey of some of the required technology being used in this project that I was not familiar with](#filesoflearningjourney)
     1. Prompt Engineering learn (from Prompt Engineering course by DeepLearning.AI in collaboration with OpenAI (using ChatGPT as the LLM))
