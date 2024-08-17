@@ -2,6 +2,8 @@
 
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
 
+maybe can put pic of the streanlit website too
+
 List of features to add to the UROP Telegram chatbot (if can do all these then not bad alr!! No need try to do more cuz need focus on the other UROP and studies too 😫):
 
 Schedule:
