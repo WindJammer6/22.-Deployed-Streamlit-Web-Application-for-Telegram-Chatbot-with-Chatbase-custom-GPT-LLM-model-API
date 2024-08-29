@@ -12,6 +12,8 @@ Schedule:
 August:
 - Try to deploy the Telegram Chatbot and Streamlit website (and firebase)
 - Allow teachers of a course to add (manually i guess?) assignments for the programming course (Maybe a seperate page of Programming Question and Test cases), and hopefully it shows up in the streamlit lists of assignment id for the programming course
+
+September:
 - Try to get Telegram bot to instead do conversational with free text input, make it more like limited with text options and fill in the blanks style, with name, courseid,  assignmentid and their answers (basically figure out how the entire conversation with the Telegram chatbot is gonna be like)
 - From a conversation with ChatGPT:
 Can Telegram bots be programmed to not give the user freedom of text but instead with premade options?
@@ -26,9 +28,6 @@ Custom Keyboards: These replace the default keyboard with a set of predefined bu
 Callback Queries: These are used with inline keyboards to handle button presses and provide appropriate responses based on the user’s selection.
 
 By using these features, you can create a controlled interaction flow where users only choose from the given options.
-
-September:
-- Allow teachers of a course to add (manually i guess?) assignments for the programming course (Maybe a seperate page of Programming Question and Test cases), and hopefully it shows up in the streamlit lists of assignment id for the programming course
 - Allow the teacher to customise behavior of the chatbot via the details page (or maybe don't even need this anymore? and details page will just be about the Telegram chatbot and website?)
 
 
