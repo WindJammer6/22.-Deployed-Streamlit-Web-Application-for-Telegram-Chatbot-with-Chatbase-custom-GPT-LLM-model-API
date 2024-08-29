@@ -31,7 +31,8 @@ September:
 - Allow teachers of a course to add (manually i guess?) assignments for the programming course (Maybe a seperate page of Programming Question and Test cases), and hopefully it shows up in the streamlit lists of assignment id for the programming course
 - Allow the teacher to customise behavior of the chatbot via the details page (or maybe don't even need this anymore? and details page will just be about the Telegram chatbot and website?)
 
-November:  
+
+October and November:  
 - Testing of the Telegram chatbot and any other last changes to complete the project? (Plan to do less here due to term 3 examinations)
 
 
