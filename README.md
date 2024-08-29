@@ -32,8 +32,11 @@ September:
 - Allow the teacher to customise behavior of the chatbot via the details page (or maybe don't even need this anymore? and details page will just be about the Telegram chatbot and website?)
 
 
-October and November:  
-- Testing of the Telegram chatbot and any other last changes to complete the project? (Plan to do less here due to term 3 examinations)
+October:  
+- Testing of the Telegram chatbot and any other last changes to complete the project? (Plan to do less here due to examinations)
+
+November:  
+- Documentation for future improvements on the project (Plan to do less here due to examinations)
 
 
 Bonus task for even more improvement:
