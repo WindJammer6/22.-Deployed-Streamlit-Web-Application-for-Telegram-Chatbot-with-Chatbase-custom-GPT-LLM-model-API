@@ -8,6 +8,10 @@ Tell prof this is my restricted version. If want to make a text version I think 
 
 Next few month is just to find a time to deploy, test with prompt engineering, documentation of the project
 
+for the code to look nicer in the streamlit website databade can add triple back quotes by default into the code submissions by the students:
+```
+
+```
 
 
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
