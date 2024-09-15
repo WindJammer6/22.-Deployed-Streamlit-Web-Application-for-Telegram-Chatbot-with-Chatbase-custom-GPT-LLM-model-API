@@ -1,5 +1,9 @@
 # 22.-Deployed-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase-with-Figma-for-prototyping ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=figma) 
 
+Remaining 2 issues before going to deployment and testing and documentation is:
+- Telegram button when streamlit website deletes or adds it don't appear/disappear immediately...
+- streamlit website refreshing, and cant really see the database for long
+
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
 
 ALSO MIGHT NEED TO SEPERATE ONLY THE NECESSARY FILES FOR DEPLOYMENT IN A SEPARATE GITHUB REPO IN ORDER TO PREVENT ERROR. CUZ ADDING EXTRA MISCELLANEUOUS FILES MAY CAUSE DEPLOYMENT ERROR!! (SAME FOR THE '18. KARAOKE EVENT STREAMLIT APP', WHICH NOW HAS ERRORS CUZ I ADDED EXTRA MISCELLANEUOUS FILES TO ITS GITHUB REPO... OOPS...)
