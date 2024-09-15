@@ -4,6 +4,12 @@ Remaining 2 issues before going to deployment and testing and documentation is:
 - Telegram button when streamlit website deletes or adds it don't appear/disappear immediately...
 - streamlit website refreshing, and cant really see the database for long
 
+Tell prof this is my restricted version. If want to make a text version I think might be abit tricky ah... likely will want to just stop the UROP with this restricted version of the Telegram Chatbot cuz need to move on with studies
+
+Next few month is just to find a time to deploy, test with prompt engineering, documentation of the project
+
+
+
 JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
 
 ALSO MIGHT NEED TO SEPERATE ONLY THE NECESSARY FILES FOR DEPLOYMENT IN A SEPARATE GITHUB REPO IN ORDER TO PREVENT ERROR. CUZ ADDING EXTRA MISCELLANEUOUS FILES MAY CAUSE DEPLOYMENT ERROR!! (SAME FOR THE '18. KARAOKE EVENT STREAMLIT APP', WHICH NOW HAS ERRORS CUZ I ADDED EXTRA MISCELLANEUOUS FILES TO ITS GITHUB REPO... OOPS...)
