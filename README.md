@@ -1,5 +1,7 @@
 # 22.-Deployed-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase-with-Figma-for-prototyping ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=figma) 
 
+CHATBASE SUBSCRIPTION IS CANCELLED. (ALTERNATIVELY CAN USE ANOTHER LLM (MAYBE THE MISTRAL LLM SINCE ITS FREE???) On 24/1/2025
+
 Remaining 2 issues before going to deployment and testing and documentation is:
 - Telegram button when streamlit website deletes or adds it don't appear/disappear immediately...
 - streamlit website refreshing, and cant really see the database for long
