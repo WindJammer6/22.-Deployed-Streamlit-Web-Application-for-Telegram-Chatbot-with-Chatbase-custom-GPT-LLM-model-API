@@ -1,5 +1,7 @@
 # 22.-Deployed-Streamlit-Web-Application-for-Telegram-Chatbot-with-Chatbase-custom-GPT-LLM-model-API-and-Firebase-with-Figma-for-prototyping ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=firebase) ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=figma) 
 
+maybe for the secrets add 1 version with the json file (witht he info erased) and 1 with the deployed one without the json file but the secrets variables)
+
 CHATBASE SUBSCRIPTION IS CANCELLED. (ALTERNATIVELY CAN USE ANOTHER LLM (MAYBE THE MISTRAL LLM SINCE ITS FREE???) On 24/1/2025
 
 ALSO MIGHT NEED TO SEPERATE ONLY THE NECESSARY FILES FOR DEPLOYMENT IN A SEPARATE GITHUB REPO IN ORDER TO PREVENT ERROR. CUZ ADDING EXTRA MISCELLANEUOUS FILES MAY CAUSE DEPLOYMENT ERROR!! (SAME FOR THE '18. KARAOKE EVENT STREAMLIT APP', WHICH NOW HAS ERRORS CUZ I ADDED EXTRA MISCELLANEUOUS FILES TO ITS GITHUB REPO... OOPS...)
