@@ -177,9 +177,16 @@ Source(s):
 <br>
 
 ## 2. Past iterations/versions/prototypes of the Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database <a name = "filesofpastiterationsofstreamlitwebapplication"></a>
-https://www.figma.com/community/file/1406323732296662518/telegram-chatbot-website-with-prompt-engineering-prototyping (Figma prototype file link)  
 
-- Here is the link of this deployed Telegram Bot (named 'Telegram_Chatbot_integrated_with_Chatbase_GPT_model_API') using [Vercel](https://vercel.com/) - https://t.me/test_12173_bot
+I have labelled the version of each of the file along with a brief description of the differences between the versions in the file names. Here is a slightly more elaborate description of the differences in versions:
+  1. Figma website application prototype design: https://www.figma.com/community/file/1406323732296662518/telegram-chatbot-website-with-prompt-engineering-prototyping - the Figma prototype of the Streamlit website's design
+  2. 'database_page_streamlit_website_v1.py' file and 'details_page_streamlit_website_v1.py' file - the zero-th version of the creating the two pages of the Streamlit website in seperate files
+  3. 'combined_streamlit_website_v1_(using_MySQL_server)(local).py' file - the first version integrated with MySQL database
+  4. 'combined_streamlit_website_v2_(using_Firebase)(cloud).py' file - the second version integrated with Firebase's Realtime Database
+  5. 'combined_streamlit_website_v3_(using_Firebase)(cloud)(adding_feature_of_allowing_adding_of_assignments_in_database_page_and_fixing_bug_of_database_page_constantly_refreshing_and_some_minor_changes).py' file - the third version which added some minor features and fixing some bugs
+
+*Why did I choose Firebase's Realtime Database instead of MySQL databases?*  
+With my recently learnt knowledge of MySQL, I wanted to try using MySQL databases in this project. However, I realised that many of the database hosting platforms such as [Azure Database](https://azure.microsoft.com/en-us/products/category/databases/) and [Amazon Web Services](https://aws.amazon.com/) require your billing information in order to start hosting MySQL databases on them. I did not want to take the risk of being overcharged as I will most likely not maintain my built application since I only created them for education purposes and not for production. Hence, I decided to use [Firebase's Relational/NoSQL realtime database](https://firebase.google.com/) instead since it is the only database hosting platform that did not require billing information.
 
 <br>
 
@@ -245,6 +252,29 @@ From the official [Streamlit Cloud](https://streamlit.io/cloud) website: 'Stream
 
 Honestly, the documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud (link: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app) explains very clearly step by step on how to deploy a Streamlit Web Application on [Streamlit Cloud](https://streamlit.io/cloud). Once deployed correctly, I got a direct 'streamlit.io' link to the Streamlit Web Application, which I can then share with others to try out this Streamlit Web Application.
 
+*Handling sensitive information as **'secrets'/environment variables** on [Streamlit Cloud](https://streamlit.io/cloud)*  
+When I tried to push the Firebase Realtime Database's private keys or the Chatbase custom GPT LLM model API private key onto this Github repository directly, I kept getting a security warning that my 'secrets' is exposed from Github. I did not care about it at first, but it became an issue when Firebase Realtime Database's private keys keeps resetting and gets cancelled whenever the private key is detected to be exposed publicly, causing the deployed Streamlit website application to stop working, and I had to re-generate new unique private keys from the [Firebase](https://firebase.google.com/) website again which is very troublesome and the same issue will occur if I try to push the Firebase Realtime Database's private keys onto this Github repository again.
+
+Hence, I found out that various deployment platforms, not just for [Streamlit Cloud](https://streamlit.io/cloud), whether you are deploying your applications on platforms like Heroku, AWS, Vercel, or others, you can add **'secrets'/environment variables** directly on the deployed applications on the deployment platforms themselves privately, thus eliminating this security risk of the 'secrets' information being exposed on Github.
+
+Specifically for the [Streamlit Cloud](https://streamlit.io/cloud), you can add **'secrets'/environment variables** directly on the deployed applications on [Streamlit Cloud](https://streamlit.io/cloud) and learn how to use these added **'secrets'/environment variables** on the deployed applications on [Streamlit Cloud](https://streamlit.io/cloud) in code by following this documentation (link: https://blog.streamlit.io/secrets-in-sharing-apps/).
+
+Here is an example of how I did it in this Streamlit Web Application for the Telegram Chatbot with Chatbase custom GPT LLM model API and Firebase (API)'s Realtime Database on Streamlit Cloud:
+```text
+fb_credentials = json.loads(st.secrets['FIREBASE_DB_CONVERSATIONS'])
+
+
+if "conversations" not in firebase_admin._apps:
+    # Initialize Firebase
+    credentials_object_conversations = firebase_admin.credentials.Certificate(fb_credentials)
+    firebase_admin.initialize_app(credentials_object_conversations, {
+        'databaseURL': 'https://urop-telegram-chatbot-default-rtdb.asia-southeast1.firebasedatabase.app/'
+    }, name='conversations')
+
+# Get a reference to the database
+reference_to_database_conversations = db.reference('/', app=firebase_admin.get_app('conversations'))
+```
+
 <br>  
 
 - Here is the link of my [Streamlit Cloud](https://streamlit.io/cloud) account of the username: 'WindJammer6' - https://share.streamlit.io/user/windjammer6
@@ -254,3 +284,6 @@ Source(s):
 + https://streamlit.io/cloud (Streamlit Cloud)
 + https://blog.streamlit.io/introducing-streamlit-cloud/ (Streamlit Blog)
 + https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app (Streamlit Cloud) (Documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud)
++ https://blog.streamlit.io/secrets-in-sharing-apps/ (Streamlit) (How to add **'secrets'/environment variables** directly on the deployed applications on [Streamlit Cloud](https://streamlit.io/cloud) and use it in code) (for 'Handling sensitive information as **'secrets'/environment variables** on [Streamlit Cloud](https://streamlit.io/cloud)' section)
++ https://docs.streamlit.io/develop/api-reference/connections/st.secrets (Streamlit Blog) (Documentation of Streamlit's 'st.secrets()' function) (for 'Handling sensitive information as **'secrets'/environment variables** on [Streamlit Cloud](https://streamlit.io/cloud)' section)
++ https://firebase.google.com/docs/reference/admin/python/firebase_admin.credentials (Firebase documentation) (Documentation of Firebase's 'firebase_admin.credentials' attribute since I needed to see how the 'firebase_admin.credentials.Certificate(cert)' class works and what datatype does its input, aka 'cert', is, in order to integrate the **'secrets'/environment variables** on [Streamlit Cloud](https://streamlit.io/cloud) in the [Firebase](https://firebase.google.com/) code) (for 'Handling sensitive information as **'secrets'/environment variables** on [Streamlit Cloud](https://streamlit.io/cloud)' section)
