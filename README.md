@@ -201,7 +201,7 @@ Honestly, the documentation on how to deploy a Streamlit (Python Framework) Web 
 
 <br>
 
-*Handling sensitive information as **'secrets'/environment variables** on [Streamlit Cloud](https://streamlit.io/cloud)*  
+*Handling sensitive information as **'secrets'/environment variables** on [Streamlit Cloud](https://streamlit.io/cloud):*  
 When I tried to push the Firebase Realtime Database's private keys or the Chatbase custom GPT LLM model API private key onto this Github repository directly, I kept getting a security warning that my 'secrets' is exposed from Github. I did not care about it at first, but it became an issue when Firebase Realtime Database's private keys keeps resetting and gets cancelled whenever the private key is detected to be exposed publicly, causing the deployed Streamlit website application to stop working, and I had to re-generate new unique private keys from the [Firebase](https://firebase.google.com/) website again which is very troublesome and the same issue will occur if I try to push the Firebase Realtime Database's private keys onto this Github repository again.
 
 Hence, I found out that various deployment platforms, not just for [Streamlit Cloud](https://streamlit.io/cloud), whether you are deploying your applications on platforms like Heroku, AWS, Vercel, or others, you can add **'secrets'/environment variables** directly on the deployed applications on the deployment platforms themselves privately, thus eliminating this security risk of the 'secrets' information being exposed on Github.
