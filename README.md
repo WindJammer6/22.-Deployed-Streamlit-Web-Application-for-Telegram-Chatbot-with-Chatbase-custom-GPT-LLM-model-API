@@ -130,6 +130,8 @@ I have labelled the version of each of the file along with a brief description o
   4. 'combined_streamlit_website_v2_(using_Firebase)(cloud).py' file - the second version integrated with Firebase's Realtime Database
   5. 'combined_streamlit_website_v3_(using_Firebase)(cloud)(adding_feature_of_allowing_adding_of_assignments_in_database_page_and_fixing_bug_of_database_page_constantly_refreshing_and_some_minor_changes).py' file - the third version which added some minor features and fixing some bugs
 
+<br>
+
 *Why did I choose Firebase's Realtime Database instead of MySQL databases?*  
 With my recently learnt knowledge of MySQL, I wanted to try using MySQL databases in this project. However, I realised that many of the database hosting platforms such as [Azure Database](https://azure.microsoft.com/en-us/products/category/databases/) and [Amazon Web Services](https://aws.amazon.com/) require your billing information in order to start hosting MySQL databases on them. I did not want to take the risk of being overcharged as I will most likely not maintain my built application since I only created them for education purposes and not for production. Hence, I decided to use [Firebase's Relational/NoSQL realtime database](https://firebase.google.com/) instead since it is the only database hosting platform that did not require billing information.
 
