@@ -2,66 +2,11 @@
 
 CHATBASE SUBSCRIPTION IS CANCELLED. (ALTERNATIVELY CAN USE ANOTHER LLM (MAYBE THE MISTRAL LLM SINCE ITS FREE???) On 24/1/2025
 
-Remaining 2 issues before going to deployment and testing and documentation is:
-- Telegram button when streamlit website deletes or adds it don't appear/disappear immediately...
-- streamlit website refreshing, and cant really see the database for long
-
-Tell prof this is my restricted version. If want to make a text version I think might be abit tricky ah... likely will want to just stop the UROP with this restricted version of the Telegram Chatbot cuz need to move on with studies
-
-Next few month is just to find a time to deploy, test with prompt engineering, documentation of the project
-
-for the code to look nicer in the streamlit website databade can add triple back quotes by default into the code submissions by the students:
-```
-
-```
-
-
-JUST NEED TO SLOWLY CLEAN UP ALL THE FILES AND UPLOAD THEM HERE!! AND UPDATE WITH THE RELEVANT INFORMATION ABOUT THOSE FILES/FOLDERS!
-
 ALSO MIGHT NEED TO SEPERATE ONLY THE NECESSARY FILES FOR DEPLOYMENT IN A SEPARATE GITHUB REPO IN ORDER TO PREVENT ERROR. CUZ ADDING EXTRA MISCELLANEUOUS FILES MAY CAUSE DEPLOYMENT ERROR!! (SAME FOR THE '18. KARAOKE EVENT STREAMLIT APP', WHICH NOW HAS ERRORS CUZ I ADDED EXTRA MISCELLANEUOUS FILES TO ITS GITHUB REPO... OOPS...)
 
 maybe can put pic of the streanlit website, firebase, chatbase and figma too and the 
 
 plan to change it from transferable between courses to only works for one course... cuz to make it transferable between courses is too hard alr
-
-List of features to add to the UROP Telegram chatbot (if can do all these then not bad alr!! No need try to do more cuz need focus on the other UROP and studies too 😫):
-
-Schedule:
-August:
-- Try to deploy the Telegram Chatbot and Streamlit website (and firebase)
-- Allow teachers of a course to add (manually i guess?) assignments for the programming course (Maybe a seperate page of Programming Question and Test cases), and hopefully it shows up in the streamlit lists of assignment id for the programming course
-
-September:
-- Try to get Telegram bot to instead do conversational with free text input, make it more like limited with text options and fill in the blanks style, with name, courseid,  assignmentid and their answers (basically figure out how the entire conversation with the Telegram chatbot is gonna be like)
-- From a conversation with ChatGPT:
-Can Telegram bots be programmed to not give the user freedom of text but instead with premade options?
-ChatGPT said:
-ChatGPT
-Yes, Telegram bots can be programmed to offer users a limited set of options instead of allowing free text input. This can be achieved using inline keyboards, custom keyboards, or callback queries.
-
-Inline Keyboards: These are buttons that appear within the chat and can trigger actions or responses when pressed. They don't require user input beyond clicking a button.
-
-Custom Keyboards: These replace the default keyboard with a set of predefined buttons that users can select from.
-
-Callback Queries: These are used with inline keyboards to handle button presses and provide appropriate responses based on the user’s selection.
-
-By using these features, you can create a controlled interaction flow where users only choose from the given options.
-- Allow the teacher to customise behavior of the chatbot via the details page (or maybe don't even need this anymore? and details page will just be about the Telegram chatbot and website?)
-
-
-October:  
-- Testing of the Telegram chatbot and any other last changes to complete the project? (Plan to do less here due to examinations)
-
-November:  
-- Documentation for future improvements on the project (Plan to do less here due to examinations)
-
-
-Bonus task for even more improvement:
-Allow teachers from other courses to add their own course + assignments with the respective ids + get  the 'search course' bar to work, where by you search for a course and all its uploaded assignments will show up at the left side of the streamlit website
-
-
-
-
 
 This is a project done as part of my University's Undergraduate Research Opportunities Programme (UROP), titled **'UROP: Telegram chatbot for novice programmers to learn coding'**, supervised and initiated by Professor Oka Kurniawan ([here](https://github.com/kurniawano) is his Github account), spanding 8 months of (on-off) work.
 
@@ -251,6 +196,8 @@ Due to my lack of knowledge in some of the required technology being used in the
 From the official [Streamlit Cloud](https://streamlit.io/cloud) website: 'Streamlit Cloud is a new product that lets you build, deploy, and share data from Streamlit Web Applications in minutes.' 
 
 Honestly, the documentation on how to deploy a Streamlit (Python Framework) Web Application on Streamlit Cloud (link: https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app) explains very clearly step by step on how to deploy a Streamlit Web Application on [Streamlit Cloud](https://streamlit.io/cloud). Once deployed correctly, I got a direct 'streamlit.io' link to the Streamlit Web Application, which I can then share with others to try out this Streamlit Web Application.
+
+<br>
 
 *Handling sensitive information as **'secrets'/environment variables** on [Streamlit Cloud](https://streamlit.io/cloud)*  
 When I tried to push the Firebase Realtime Database's private keys or the Chatbase custom GPT LLM model API private key onto this Github repository directly, I kept getting a security warning that my 'secrets' is exposed from Github. I did not care about it at first, but it became an issue when Firebase Realtime Database's private keys keeps resetting and gets cancelled whenever the private key is detected to be exposed publicly, causing the deployed Streamlit website application to stop working, and I had to re-generate new unique private keys from the [Firebase](https://firebase.google.com/) website again which is very troublesome and the same issue will occur if I try to push the Firebase Realtime Database's private keys onto this Github repository again.
